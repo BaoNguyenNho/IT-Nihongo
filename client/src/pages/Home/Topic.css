@@ -1,9 +1,9 @@
-.card_style {
+.topic .card_style.card {
   background-color: transparent;
   border: transparent;
 }
 
-.card_img {
+.topic .card_img {
   /* border-top-left-radius: 20px;
     border-top-right-radius: 20px; */
   border-radius: 20px;
@@ -12,13 +12,13 @@
   height: 300px;
   overflow: hidden;
 }
-.card-title {
+.topic .card-title {
   font-size: 30px !important;
 }
-.card-body {
+.topic .card-body {
   padding-bottom: 0;
 }
-.container {
+.topic .container {
   position: relative;
   /* display: flex; */
   /* align-items: center;
@@ -26,10 +26,10 @@
   /* margin-right: 10%; */
   width: fit-content;
 }
-.row {
+.topic .row {
   /* height: 30%; */
 }
-.col {
+.topic .col {
   margin-left: 50px;
   margin-right: 50px;
   height: fit-content;
@@ -37,7 +37,7 @@
 .topic {
   width: fit-content;
 }
-.form-check-input[type='radio'] {
+.topic .form-check-input[type='radio'] {
   border-radius: 20%;
 }
 .topic Form {

@@ -1,0 +1,28 @@
+/* .listvote-table .table{
+    text-align:center;
+} */
+.listvote-table .table{
+    background-color: white;
+    /* border-radius: 20px; */
+}
+/* .listvote-table .table.table-bordered{
+    border:none;
+} */
+.listvote-table .table td, .listvote-table .table th{
+    text-align:center;
+    vertical-align:middle;
+}
+.listvote-table img{
+    width: 60%;
+    height: 100px;
+    object-fit: cover;
+    /* background: black; */
+    border-radius: 20px;
+    /* position: absolute;
+    left: 40%;
+    right: 40%; */
+}
+
+.listvote-table .carousel-indicators{
+    position:relative;
+}

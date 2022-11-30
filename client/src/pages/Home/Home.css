@@ -1,12 +1,11 @@
-html,
-body {
+html, body {
   /* background-image: url("https://phuot3mien.com/wp-content/uploads/2020/03/cau-rong-da-nang-phuot3mien.jpg");
     opacity: 0.5; */
   /* overflow: hidden; */
 
   min-height: 100%;
 }
-body {
+ body {
   position: relative;
   background-color: transparent !important;
   background-size: auto;
@@ -28,8 +27,8 @@ body {
   /* display: inline-block; */
   font-size: 30px;
   color: white;
-  height: 90px;
-  width: 90px;
+  height: 60px;
+  width: 60px;
   /* background-color: black !important; */
   border-radius: 50% !important;
   display: flex !important;

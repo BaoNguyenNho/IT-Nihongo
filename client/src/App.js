@@ -6,7 +6,7 @@ import Error from "./pages/Error/Error";
 import Detail from "./pages/detail";
 import UpLoad from "./pages/upLoad/upLoad";
 import DesignChosen from "./pages/designPage/Design";
-
+import List from "./pages/listVote/";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/detail" element={<Detail />} />
         <Route path="/" element={<Home />} />
+        <Route path="/list" element={<List />} />
       </Routes>
     </BrowserRouter>
   );

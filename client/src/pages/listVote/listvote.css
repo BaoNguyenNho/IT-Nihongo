@@ -1,0 +1,41 @@
+.listvote{
+  height: 100%;
+}
+.listvote .header {
+    display: flex;
+    height: fit-content;
+    padding: 10px 20px;
+  }
+.listvote .header .logo {
+    /* display: inline-block; */
+    font-size: 30px;
+    color: white;
+    height: 90px;
+    width: 90px;
+    /* background-color: black !important; */
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+}
+.listvote .card{
+  /* min-height: 100%; */
+  border-radius: 20px;
+  padding-bottom: 30px;
+  background:rgba(255, 255, 255, 0.3);
+  overflow:visible;
+  /* -webkit-transition: height 1s ease-in-out;
+  -moz-transition: height 1s ease-in-out;
+  -o-transition: height 1s ease-in-out; */
+  transition: height 3s ease-in-out;
+}
+.listvote .demo-bg {
+  /* opacity: 0.3; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index:-1;
+}
